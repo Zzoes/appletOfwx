@@ -1,0 +1,59 @@
+/**index.wxss**/
+.nav-box{
+  font-family: 'Microsoft Yahei','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #FF2742;
+  color: #fff;
+  font-size: 37rpx;
+  padding-bottom:20rpx;
+}
+.nav-tit{
+  text-align: center;
+}
+.search{
+  position: relative;
+  width: 680rpx;
+  height: 58rpx;
+  background: #fff;
+  color: #B2B2B2;
+  margin: 35rpx auto;
+  border-radius: 100rpx;
+}
+.search label{
+  display: inline-block;
+  width: 90%;
+  color: #B2B2B2;
+  text-align: center;
+  font-size: 26rpx;
+  padding:10rpx;
+}
+.search label image{
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align:top; 
+}
+.search input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+}
+.flicking-icon{
+  display:inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align:middle;
+}
+.slide-img{
+  width: 100%;
+  height: 100%;
+}
+.adv-banner{
+  width: 100%;
+  height: 200rpx;
+}
+.adv-banner image{
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin: 30rpx auto;
+}

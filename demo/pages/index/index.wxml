@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="nav-box">
+  <view class="nav-tit">如此生活</view>
+  <view class="search">
+    <label for="search">
+      <image src='../../images/seach@2x.png'></image>
+      搜索
+    </label>
+    <input id="search" />
+    <image class='flicking-icon' src='../../images/Shape@2x.png'></image>
+  </view>
+</view>
+
+<swiper indicator-dots="true" indicator-color="rgba(255,255,255,1)" indicator-active-color="rgba(255,39,66,1)" autoplay="true" circular="" vertical="" interval="5000" duration="500">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <swiper-item>
+      <image src='{{item}}' class='slide-img'></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='adv-banner'>
+  <image src='../../images/adv-banner@2x.png'></image>
+</view>
