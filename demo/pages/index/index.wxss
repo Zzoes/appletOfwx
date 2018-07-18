@@ -1,4 +1,7 @@
 /**index.wxss**/
+page{
+  background: rgba(248,248,248,1);
+}
 .nav-box{
   font-family: 'Microsoft Yahei','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #FF2742;
@@ -53,7 +56,104 @@
 }
 .adv-banner image{
   display: block;
-  width: 80%;
-  height: 100%;
-  margin: 30rpx auto;
+  width: 85%;
+  height: 85%; 
+  margin: 25rpx auto;
+}
+.modal-nav{
+  padding-bottom: 20rpx;
+  background: #fff;
+}
+.modal-nav navigator{
+  width: 33.33%;
+  display: inline-block;
+  font-size: 24rpx;
+  text-align: center;
+
+}
+
+.modal-nav navigator image{
+  display: block;
+  width: 114rpx;
+  height: 114rpx;
+  margin: 0 auto 10rpx;
+}
+
+.mid-banner{
+  background-color: #FF2742;
+  text-align: center;
+  padding-top: 31rpx;
+  padding-bottom: 51rpx;
+}
+.mid-banner .tit{
+  display: block;
+  color: #FC9317;
+}
+.mid-banner .tit-info{
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.product-list{
+  margin-top: 26rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+}
+.sales-tit{
+  display: block;
+  width: 258rpx;
+  height: 78rpx;
+  margin: 0 auto;
+  padding-bottom: 10rpx;
+}
+.product-list .product-info{
+  padding-bottom: 20rpx;
+}
+.product-list .product-info>image{
+  display: inline-block;
+  width: 250rpx;
+  height: 250rpx;
+  margin-right: 10rpx;
+  border-radius: 16rpx;
+  background: rgba(248,248,248,1);
+  vertical-align: top;
+} 
+.product-list .product-info .product-txt{
+  position: relative;
+  display: inline-block;
+  width: 430rpx;
+  padding: 16rpx 0;
+  vertical-align: top;
+}
+.product-list .product-info .product-txt .count-time{
+  display: block;
+  color: #999;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.product-list .product-info .product-txt .product-name{
+  display: block;
+  font-size: 28rpx;
+  margin-bottom: 26rpx;
+}
+.product-price{
+  display: block;
+  color: #FF2742;
+  font-size: 24rpx;
+}
+.product-price text{
+  font-size: 32rpx;
+}
+.product-price.del{
+  color: #999;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.sales-flag{
+  position: absolute;
+  right: 30rpx;
+  bottom: 10rpx;
+  display: inline-block;
+  width: 108rpx;
+  height: 60rpx;
 }

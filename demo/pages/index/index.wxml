@@ -22,3 +22,76 @@
 <view class='adv-banner'>
   <image src='../../images/adv-banner@2x.png'></image>
 </view>
+
+<view class='modal-nav'>
+  <navigator url=''>
+    <image src='../../images/red-packet.png'></image>
+    <text>领红包</text>
+  </navigator>
+  <navigator url=''>
+    <image src='../../images/star-note.png'></image>
+    <text>签到领星币</text>
+  </navigator>
+  <navigator url=''>
+    <image src='../../images/coupon.png'></image>
+    <text>优惠券</text>
+  </navigator>
+</view>
+
+<view class='mid-banner'>
+  <text class='tit'>新人专场</text>
+  <text class='tit-info'>你每天疲于奔命，别忘了停下来看看生活</text>
+</view>
+
+<view class='product-list'>
+  <image class='sales-tit' src="../../images/so-free.png"></image>
+  
+  <view class='product-info'>
+    <image src='../../images/star-child.png'></image>
+    <view class='product-txt'>
+      <text class='count-time'>距离折扣结束还有 </text>
+      <text class='product-name'>拉基蒂奇换一口肉 西班牙超级烤肉 尤文都说好吃</text>
+      <text class='product-price'>￥<text>35</text>.00</text>
+      <text class='product-price del'>￥45.00</text>
+      <image class='sales-flag' src='../../images/qiang@2x.png'></image>
+    </view>
+  </view>
+
+  <view class='product-info'>
+    <image src='../../images/star-child.png'></image>
+    <view class='product-txt'>
+      <text class='count-time'>距离折扣结束还有 </text>
+      <text class='product-name'>拉基蒂奇换一口肉 西班牙超级烤肉 尤文都说好吃</text>
+      <text class='product-price'>￥<text>35</text>.00</text>
+      <text class='product-price del'>￥45.00</text>
+      <image class='sales-flag' src='../../images/qiang@2x.png'></image>
+    </view>
+  </view>
+
+  <view class='product-info'>
+    <image src='../../images/star-child.png'></image>
+    <view class='product-txt'>
+      <text class='count-time'>距离折扣结束还有 </text>
+      <text class='product-name'>拉基蒂奇换一口肉 西班牙超级烤肉 尤文都说好吃</text>
+      <text class='product-price'>￥<text>35</text>.00</text>
+      <text class='product-price del'>￥45.00</text>
+      <image class='sales-flag' src='../../images/qiang@2x.png'></image>
+    </view>
+  </view>
+
+</view>
+
+<view class='product-list'>
+  <image class='sales-tit' src="../../images/guess.png"></image>
+  
+  <view class='guess-list'>
+    <view class='guess-item'>
+      <image src='../../images/star-child.png'></image>
+      <text></text>
+      <text></text>
+      <text class='product-price del'>￥45.00</text>
+    </view>
+
+  </view>
+
+</view>
